@@ -9,6 +9,11 @@ body{
   text-align: center;
 }
 
+.Landingpage{
+  height: 80%;
+  width: 80%;
+}
+
 .Homepage{
   position: absolute;
   width: 100%;

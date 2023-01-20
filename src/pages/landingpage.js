@@ -7,12 +7,12 @@ import SolentLogo from '../images/logo-solent.png';
 // logo then fades out change opacity
 // once at opactiy 0 go to homepage
 
-function homepage() {
+function landingpage() {
   return (
     <div>
-      <img src={SolentLogo} alt="Solent Logo" />
+      <img className="Landingpage" src={SolentLogo} alt="Solent Logo" />
     </div>
   )
 }
 
-export default homepage
+export default landingpage
