@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/solent-alumni/static/css/main.2d2ff3d6.css",
+    "main.js": "/solent-alumni/static/js/main.53b0d2b5.js",
+    "static/media/ImgAlumniHomepage.png": "/solent-alumni/static/media/ImgAlumniHomepage.aa302f7adb687c3123f7.png",
+    "static/media/logo-solent.png": "/solent-alumni/static/media/logo-solent.f4a2a10c09a70af253c3.png",
+    "index.html": "/solent-alumni/index.html",
+    "main.2d2ff3d6.css.map": "/solent-alumni/static/css/main.2d2ff3d6.css.map",
+    "main.53b0d2b5.js.map": "/solent-alumni/static/js/main.53b0d2b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d2ff3d6.css",
+    "static/js/main.53b0d2b5.js"
+  ]
+}
