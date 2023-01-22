@@ -11,12 +11,13 @@ import Footer from './pages/footerpage.js';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/solent-alumni" element={<Landing></Landing>}></Route>
+          <Route path="/solent-alumni" element={<Homepage></Homepage>}></Route>
           <Route path="/solent-alumni/homepage" element={<Homepage></Homepage>}></Route>
           <Route path="/solent-alumni/newuser" element={<NewUser></NewUser>}></Route>
           <Route path="/solent-alumni/exuser" element={<OldUser></OldUser>}></Route>
