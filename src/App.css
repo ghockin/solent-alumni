@@ -37,18 +37,6 @@ body{
   opacity: 1;
 }
 
-.HomepageNavR{
-  position: absolute;
-  left: 90%;
-}
-
-
-.HomepageNavL{
-  position: absolute;
-  right: 90%;
-}
-
-
 .Title .Logo{
   width: 128px;
   margin-right: 100%;
@@ -57,4 +45,62 @@ body{
 .Title h1{
   color: black;
   font-size: 40px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  width: 250px;
+  margin: 10px;
+  padding-left: 10%;
+}
+
+.flex-container > div.perks {
+  width: 250px;
+  margin: 10px;
+  padding-left: 20%;
+}
+
+.nav-contatiner-up{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.nav-container-up > div {
+  background-color: grey;
+  width:50px;
+  height:50px;
+  margin-left: 90%;
+  bottom: 70%;
+  position: absolute;
+}
+
+.nav-contatiner-bottom{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.nav-container-bottom > div {
+  background-color: grey;
+  width:50px;
+  height:50px;
+  margin-left: 90%;
+  top: 70%;
+  position: absolute;
+}
+
+.HomepageNavR{
+  position: absolute;
+  left: 90%;
+}
+
+.HomepageNavL{
+  position: absolute;
+  right: 90%;
 }

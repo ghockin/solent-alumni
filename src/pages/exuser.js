@@ -11,9 +11,38 @@ function Exams() {
         <img className='Logo' src={SolentLogo} alt="Solent Logo" />
         <h1>Ex Student</h1>
       </div>
-      <ExUserFlippableCard/>
-        <Link to='/solent-alumni/homepage' className="HomepageNavL"><button>up</button></Link>
-        <Link to='/solent-alumni/perks' className="HomepageNavR"><button>down</button></Link>
+      <div class="nav-container-up">
+        <div>
+        <Link to='/solent-alumni/homepage' ><button>up</button></Link>
+        </div>
+      </div>
+      <div class="nav-container-bottom">
+        <div>
+        <Link to='/solent-alumni/perks'><button>down</button></Link>
+        </div>
+      </div>
+      <div class="flex-container">
+        <div> {/*0*/}
+          {/* <ExUserFlippableCard /> */}
+        </div>
+        <div> {/*1*/}
+          <ExUserFlippableCard />
+        </div>
+        <div> {/*2*/}
+          {/* <ExUserFlippableCard /> */}
+        </div>
+      </div>
+      <div class="flex-container">
+        <div> {/*1*/}
+          {/* <ExUserFlippableCard /> */}
+        </div>
+        <div> {/*2*/}
+          {/* <ExUserFlippableCard /> */}
+        </div>
+        <div>  {/*3*/}
+          {/* <ExUserFlippableCard /> */}
+        </div>
+      </div>
     </div>
   )
 }

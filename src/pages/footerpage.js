@@ -9,7 +9,11 @@ function NewUser() {
       <div className="Title">
         <img className='Logo' src={SolentLogo} alt="Solent Logo" />
         <h1>Footer</h1>
-        <Link to='/solent-alumni/homepage' className="HomepageNavL"><button>up</button></Link>
+      </div>
+      <div class="nav-container-up">
+        <div>
+          <Link to='/solent-alumni/homepage' ><button>up</button></Link>
+        </div>
       </div>
       <FooterContainer />
     </div>
